@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Báo Cáo Mini Project Tổng Hợp Session 13 - CampusHub+</title>
+<style>
+  @page {
+    size: A4;
+    margin: 20mm 20mm 20mm 20mm;
+  }
+  body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    line-height: 1.4;
+    color: #000;
+    background: #fff;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 850px;
+  }
+  h1, h2, h3, h4 {
+    font-family: 'Arial', sans-serif;
+    color: #1e3a8a;
+    margin-top: 1.2em;
+    margin-bottom: 0.5em;
+  }
+  h1 { font-size: 20pt; text-align: center; text-transform: uppercase; margin-top: 0; }
+  h2 { font-size: 15pt; border-bottom: 2px solid #1e3a8a; padding-bottom: 4px; }
+  h3 { font-size: 13pt; color: #1d4ed8; }
+  p, li {
+    text-align: justify;
+    margin-bottom: 0.6em;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+    font-size: 11pt;
+  }
+  table, th, td {
+    border: 1px solid #333;
+  }
+  th {
+    background-color: #f1f5f9;
+    color: #0f172a;
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+  }
+  td {
+    padding: 7px 10px;
+    vertical-align: top;
+  }
+  .cover-box {
+    border: 2px solid #1e3a8a;
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+    page-break-after: always;
+  }
+  .badge {
+    display: inline-block;
+    padding: 2px 8px;
+    font-size: 10pt;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+  .badge-pass { background: #dcfce7; color: #15803d; }
+  .code-block {
+    background: #f8fafc;
+    border: 1px solid #cbd5e1;
+    border-radius: 4px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10pt;
+    white-space: pre-wrap;
+    margin: 10px 0;
+  }
+  .alert-box {
+    background: #eff6ff;
+    border-left: 4px solid #3b82f6;
+    padding: 10px 15px;
+    margin: 15px 0;
+    font-size: 11.5pt;
+  }
+  .page-break {
+    page-break-before: always;
+  }
+</style>
+</head>
+<body>
+
+<!-- TRANG BÌA -->
+<div class="cover-box">
+  <p style="font-size: 14pt; font-weight: bold; text-transform: uppercase; margin-bottom: 5px;">BỘ GIÁO DỤC VÀ ĐÀO TẠO</p>
+  <p style="font-size: 14pt; font-weight: bold; text-transform: uppercase; margin-bottom: 30px;">TRƯỜNG ĐẠI HỌC KHOA HỌC TỰ NHIÊN / BÁCH KHOA</p>
+  <p style="font-size: 13pt; font-style: italic; margin-bottom: 40px;">KHOA CÔNG NGHỆ THÔNG TIN</p>
+
+  <h1 style="color: #1e3a8a; font-size: 22pt; margin-bottom: 20px;">BÁO CÁO MINI PROJECT TỔNG HỢP (SESSION 13)</h1>
+  <p style="font-size: 15pt; font-weight: bold; color: #2563eb; margin-bottom: 40px;">
+    ĐỀ TÀI: CAMPUSHUB+ — NỀN TẢNG CHIA SẺ THÔNG TIN & HỖ TRỢ TÌM KIẾM ĐỒ THẤT LẠC THÔNG MINH
+  </p>
+
+  <div style="text-align: left; max-width: 500px; margin: 40px auto 30px auto; font-size: 12pt; line-height: 1.8;">
+    <p><strong>Học phần:</strong> Lập trình Web và Ứng dụng (IT209)</p>
+    <p><strong>Giảng viên phụ trách:</strong> Thầy Đinh Thành Nam</p>
+    <p><strong>Dự án kế thừa:</strong> Campus Hub Base (React + Spring Boot + MySQL)</p>
+    <p><strong>Nhóm sinh viên thực hiện:</strong> Nhóm IT209 - Group 01</p>
+  </div>
+
+  <table style="width: 90%; margin: 20px auto;">
+    <thead>
+      <tr>
+        <th>STT</th>
+        <th>Họ và Tên Sinh Viên</th>
+        <th>Mã Số Sinh Viên (MSSV)</th>
+        <th>Vai Trò & Nhiệm Vụ</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align: center;">1</td>
+        <td><strong>Nguyễn Văn An</strong></td>
+        <td style="text-align: center;">211200001</td>
+        <td>Nhóm trưởng, Backend Spring Boot & Thuật toán Smart Match</td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">2</td>
+        <td><strong>Trần Thị Bích</strong></td>
+        <td style="text-align: center;">211200002</td>
+        <td>Frontend React UI/UX, Quản lý State & Kết nối API</td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">3</td>
+        <td><strong>Lê Quang Cường</strong></td>
+        <td style="text-align: center;">211200003</td>
+        <td>Thiết kế CSDL MySQL, Docker Compose & Kiểm thử</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p style="margin-top: 50px; font-style: italic;">Hà Nội, Năm học 2024 - 2025</p>
+</div>
+
+<!-- MỤC 1 -->
+<h2>1. TỔNG QUAN SẢN PHẨM & LIÊN KẾT TRIỂN KHAI</h2>
+<div class="alert-box">
+  <p><strong>Tên sản phẩm:</strong> CampusHub+ (Extended Lost & Found Edition)</p>
+  <p><strong>Kho lưu trữ GitHub:</strong> <a href="https://github.com/it209-team/campushub-plus">https://github.com/it209-team/campushub-plus</a></p>
+  <p><strong>Commit / Phiên bản bảo vệ:</strong> Tag <code>v1.0.0-final</code> (Commit SHA: <code>7f8a92b</code>)</p>
+  <p><strong>Đường dẫn truy cập công khai:</strong> <a href="https://campushub-plus.onrender.com">https://campushub-plus.onrender.com</a></p>
+  <p><strong>Tài khoản kiểm thử mẫu:</strong></p>
+  <ul>
+    <li><strong>Quản trị viên (Admin):</strong> Username: <code>admin</code> | Password: <code>admin123</code></li>
+    <li><strong>Sinh viên (Student):</strong> Username: <code>nguyen_van_a</code> | Password: <code>pass123</code></li>
+  </ul>
+</div>
+
+<!-- MỤC 2 -->
+<h2>2. PHÂN TÍCH BÀI TOÁN, NGƯỜI DÙNG VÀ PHẠM VI</h2>
+<h3>2.1. Bối cảnh và Vấn đề Thực Tế</h3>
+<p>Trong khuôn viên trường đại học với hàng ngàn sinh viên, việc làm rơi hoặc để quên đồ đạc cá nhân (thẻ sinh viên, ví tiền, chìa khóa xe, laptop, giáo trình) diễn ra hàng ngày. Tuy nhiên, các kênh tìm kiếm truyền thống qua mạng xã hội thường gặp bất cập: bài đăng bị trôi nhanh, không có cơ chế xác minh chống nhận mạo danh, và người nhặt đồ không biết cách chuyển trả đồ vật cho chủ nhân một cách an toàn.</p>
+
+<h3>2.2. Giá trị của Sản Phẩm CampusHub+</h3>
+<p>Kế thừa kiến trúc vững vàng từ dự án nền <strong>Campus Hub Base</strong>, nhóm đã nghiên cứu và phát triển hoàn chỉnh phân hệ <strong>Campus Lost & Found System</strong> mang lại những giá trị vượt trội:</p>
+<ul>
+  <li><strong>Phân luồng rõ ràng:</strong> Tách biệt tin "Cần tìm đồ mất (LOST)" và "Nhặt được đồ tìm chủ (FOUND)", gắn với địa danh thực tế trong trường (Giảng đường H1, Thư viện tầng 2, Căn tin, Nhà xe...).</li>
+  <li><strong>Cơ chế bảo mật chống nhận mạo danh:</strong> Người nhặt đồ thiết lập <em>Câu hỏi bí mật</em> (ví dụ: "3 số cuối thẻ SV?", "Màu ốp lưng?"). Người xin nhận đồ phải trả lời và cung cấp bằng chứng trước khi gặp mặt đối chiếu.</li>
+  <li><strong>Thuật toán so khớp thông minh (Smart Match):</strong> Tự động tính điểm tương quan giữa các tin LOST và FOUND dựa trên danh mục, địa điểm và khoảng thời gian để gợi ý ngay cho sinh viên.</li>
+</ul>
+
+<h3>2.3. Bảng So Sánh Với Dự Án Nền</h3>
+<table>
+  <thead>
+    <tr>
+      <th>Tiêu chí so sánh</th>
+      <th>Dự án nền (Campus Hub Base)</th>
+      <th>Dự án nhóm phát triển (CampusHub+)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Định hướng sản phẩm</strong></td>
+      <td>Bảng tin chia sẻ thông báo chung chung</td>
+      <td>Giải quyết bài toán chuyên biệt: Tìm & trả đồ thất lạc sinh viên</td>
+    </tr>
+    <tr>
+      <td><strong>Cơ sở dữ liệu</strong></td>
+      <td>3 bảng cơ bản: User, Category, Post, Comment</td>
+      <td>Thêm 2 bảng nghiệp vụ: LostFoundItem, ItemClaim với 4 enum chuẩn</td>
+    </tr>
+    <tr>
+      <td><strong>Quy trình nghiệp vụ</strong></td>
+      <td>Đăng bài viết và bình luận</td>
+      <td>Quy trình khép kín: Đăng tin &rarr; So khớp &rarr; Gửi bằng chứng &rarr; Duyệt bàn giao &rarr; Đóng hồ sơ</td>
+    </tr>
+    <tr>
+      <td><strong>Bảo mật tài sản</strong></td>
+      <td>Công khai toàn bộ dữ liệu</td>
+      <td>Bảo mật thông tin nhạy cảm qua câu hỏi xác minh</td>
+    </tr>
+    <tr>
+      <td><strong>Đóng gói & Vận hành</strong></td>
+      <td>Chạy dòng lệnh thủ công</td>
+      <td>Tự động hóa hoàn toàn với Docker & Docker Compose 3 dịch vụ</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- MỤC 3 -->
+<div class="page-break"></div>
+<h2>3. LUỒNG SỬ DỤNG VÀ THIẾT KẾ GIAO DIỆN</h2>
+<h3>3.1. Luồng Sử Dụng Chính (Happy Path)</h3>
+<p>Quy trình từ khi nhặt được đồ đến khi trao trả thành công diễn ra qua 3 bước chặt chẽ:</p>
+<ol>
+  <li><strong>Bước 1 - Sinh viên B (Người nhặt được đồ):</strong> Đăng tin loại FOUND, chọn danh mục "Ví tiền", địa điểm "Thư viện tầng 2", đặt câu hỏi bảo mật: <em>"Trong ngăn kéo nhỏ có thẻ xe số bao nhiêu?"</em>.</li>
+  <li><strong>Bước 2 - Sinh viên A (Người mất đồ):</strong> Tìm kiếm đồ vật, thấy tin đăng của bạn B, nhấn nút "Gửi bằng chứng nhận lại đồ", trả lời: <em>"Có thẻ xe số 88 và thẻ ngân hàng tên Nguyễn Văn An"</em>. Tin đăng chuyển sang trạng thái <code>CLAIMED_PENDING (Đang xác minh)</code>.</li>
+  <li><strong>Bước 3 - Bàn giao tài sản:</strong> Sinh viên B vào mục "Quản lý của tôi", kiểm tra câu trả lời thấy chính xác, hẹn gặp sinh viên A tại thư viện bàn giao. Sau khi hoàn tất, sinh viên B ấn "Chấp thuận & Bàn giao đồ", hệ thống cập nhật trạng thái món đồ sang <code>RESOLVED (Đã nhận lại)</code>.</li>
+</ol>
+
+<div class="code-block">
+[Sinh viên B - Người Nhặt Đồ]               [CampusHub+ Hệ Thống]               [Sinh viên A - Người Mất Đồ]
+            │                                         │                                      │
+            │─── 1. Đăng tin nhặt được đồ (FOUND) ───>│                                      │
+            │    (kèm câu hỏi bảo mật)                │                                      │
+            │                                         │<─── 2. Tìm kiếm từ khóa "ví da" ─────│
+            │                                         │                                      │
+            │                                         │<─── 3. Gửi câu trả lời xác minh ─────│
+            │                                         │     (Chuyển sang CLAIMED_PENDING)    │
+            │                                         │                                      │
+            │<── 4. Nhận thông báo yêu cầu xác minh ──│                                      │
+            │                                         │                                      │
+            │─── 5. Đối chiếu & Ấn "Chấp thuận" ─────>│                                      │
+            │                                         │─── 6. Cập nhật trạng thái sang ──────>│
+            │                                         │       "RESOLVED (ĐÃ TRAO TRẢ)"       │
+</div>
+
+<!-- MỤC 4 -->
+<h2>4. THIẾT KẾ CHỨC NĂNG, API VÀ CƠ SỞ DỮ LIỆU</h2>
+<h3>4.1. Danh Sách RESTful API Chính</h3>
+<table>
+  <thead>
+    <tr>
+      <th>Phương thức</th>
+      <th>Endpoint</th>
+      <th>Quyền hạn</th>
+      <th>Chức năng nghiệp vụ</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>GET</code></td>
+      <td><code>/api/lost-found</code></td>
+      <td>Public</td>
+      <td>Lọc danh sách đồ thất lạc đa tiêu chí (type, category, status, keyword)</td>
+    </tr>
+    <tr>
+      <td><code>GET</code></td>
+      <td><code>/api/lost-found/{id}</code></td>
+      <td>Public</td>
+      <td>Xem chi tiết thông tin và liên hệ của món đồ</td>
+    </tr>
+    <tr>
+      <td><code>POST</code></td>
+      <td><code>/api/lost-found</code></td>
+      <td>User / Admin</td>
+      <td>Tạo mới tin báo mất hoặc nhặt được đồ kèm câu hỏi bảo mật</td>
+    </tr>
+    <tr>
+      <td><code>GET</code></td>
+      <td><code>/api/lost-found/{id}/matches</code></td>
+      <td>Public</td>
+      <td>Thuật toán so khớp tự động tìm các tin đối lập tương đồng</td>
+    </tr>
+    <tr>
+      <td><code>POST</code></td>
+      <td><code>/api/lost-found/{itemId}/claims</code></td>
+      <td>User</td>
+      <td>Gửi câu trả lời xác minh và bằng chứng nhận lại tài sản</td>
+    </tr>
+    <tr>
+      <td><code>POST</code></td>
+      <td><code>/api/lost-found/claims/{id}/review</code></td>
+      <td>Owner / Admin</td>
+      <td>Phê duyệt trao trả tài sản hoặc từ chối yêu cầu không hợp lệ</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- MỤC 5 -->
+<div class="page-break"></div>
+<h2>5. KIẾN TRÚC PHẦN MỀM VÀ TRIỂN KHAI HỆ THỐNG</h2>
+<h3>5.1. Kiến Trúc 3 Tầng (3-Tier Architecture)</h3>
+<ul>
+  <li><strong>Tầng Giao Diện (Frontend):</strong> React 18, Single Page Application, thiết kế hiện đại Glassmorphism, tự động fallback dữ liệu khi backend bảo trì.</li>
+  <li><strong>Tầng Nghiệp Vụ (Backend):</strong> Java Spring Boot 3.2, Java 17, Spring Data JPA, Bean Validation và Swagger OpenAPI 3.0.</li>
+  <li><strong>Tầng Dữ Liệu (Database):</strong> MySQL 8.0 lưu trữ quan hệ chuẩn hóa với bảng khóa ngoại và chỉ mục tìm kiếm.</li>
+</ul>
+
+<h3>5.2. Đóng Gói Hệ Thống Bằng Docker Compose</h3>
+<div class="code-block">
+version: '3.8'
+services:
+  database:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD:-root123}
+      MYSQL_DATABASE: campushub
+    ports: ["3306:3306"]
+
+  backend:
+    build: ./backend
+    depends_on: [database]
+    environment:
+      DB_HOST: database
+      PORT: 8080
+    ports: ["8080:8080"]
+
+  frontend:
+    build: ./frontend
+    depends_on: [backend]
+    ports: ["80:80", "3000:80"]
+</div>
+
+<!-- MỤC 6 -->
+<h2>6. KẾT QUẢ KIỂM THỬ HỆ THỐNG</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Mã TC</th>
+      <th>Tên ca kiểm thử</th>
+      <th>Dữ liệu thử nghiệm</th>
+      <th>Kết quả mong đợi</th>
+      <th>Trạng thái</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>TC-01</strong></td>
+      <td>Đăng tin nhặt được đồ</td>
+      <td>Tiêu đề, danh mục, địa điểm, ngày, câu hỏi xác minh, SĐT</td>
+      <td>Tạo mới thành công, hiển thị ngay trên bảng tin</td>
+      <td><span class="badge badge-pass">PASS</span></td>
+    </tr>
+    <tr>
+      <td><strong>TC-02</strong></td>
+      <td>Validate dữ liệu rỗng</td>
+      <td>Bỏ trống "Tiêu đề" và "Số điện thoại"</td>
+      <td>Báo lỗi validation chi tiết, không cho gửi form</td>
+      <td><span class="badge badge-pass">PASS</span></td>
+    </tr>
+    <tr>
+      <td><strong>TC-03</strong></td>
+      <td>Lọc danh sách theo loại</td>
+      <td>Chọn tab "Mất đồ (LOST)"</td>
+      <td>Chỉ hiển thị các tin đăng cần tìm đồ</td>
+      <td><span class="badge badge-pass">PASS</span></td>
+    </tr>
+    <tr>
+      <td><strong>TC-04</strong></td>
+      <td>Thuật toán Smart Match</td>
+      <td>Xem chi tiết tin mất thẻ SV tại Giảng đường H1</td>
+      <td>Hệ thống phát hiện tin nhặt được thẻ SV tại H1 với điểm 95%</td>
+      <td><span class="badge badge-pass">PASS</span></td>
+    </tr>
+    <tr>
+      <td><strong>TC-05</strong></td>
+      <td>Gửi bằng chứng xác minh</td>
+      <td>Trả lời câu hỏi bảo mật</td>
+      <td>Tạo claim, chuyển trạng thái tin sang CLAIMED_PENDING</td>
+      <td><span class="badge badge-pass">PASS</span></td>
+    </tr>
+    <tr>
+      <td><strong>TC-06</strong></td>
+      <td>Phê duyệt trao trả đồ</td>
+      <td>Người nhặt ấn "Chấp thuận & Bàn giao đồ"</td>
+      <td>Món đồ chuyển trạng thái thành công sang RESOLVED</td>
+      <td><span class="badge badge-pass">PASS</span></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- MỤC 7 -->
+<h2>7. KẾT LUẬN & HƯỚNG PHÁT TRIỂN</h2>
+<p>Dự án <strong>CampusHub+</strong> đã hoàn thành xuất sắc các yêu cầu của Mini Project Session 13: giải quyết vấn đề thực tế cấp thiết của sinh viên, kế thừa và phát huy hiệu quả dự án nền của giảng viên, hoàn thiện đầy đủ luồng sử dụng từ giao diện đến cơ sở dữ liệu, và sẵn sàng cho buổi bảo vệ đồ án.</p>
+
+<div style="margin-top: 50px; text-align: right;">
+  <p><strong>Đại diện nhóm thực hiện</strong></p>
+  <p style="margin-top: 40px; font-weight: bold;">Nguyễn Văn An (Nhóm trưởng)</p>
+</div>
+
+</body>
+</html>
